@@ -1,0 +1,79 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+/* productThumbnail: */
+/* Sketch doesnt export pattern fills at this point */
+
+.App-title
+{ font-family: Raleway-SemiBold;
+  font-size: 18px;
+  color: #EC0B5A;
+  letter-spacing: 0;}
+
+.container{
+  border: 1px solid #F1F1F1;
+  border-radius: 3px;
+  max-width: 1210px;
+  background: #F1F1F1;
+  /*flexDirection: 'column'*/
+  padding: 1em;
+  margin-left: 1em;
+
+}
+
+.productImage{
+  width: 120px;
+  height: 80px;
+  float: left;
+  margin-right: 1em;
+  border-radius: 3px;
+}
+
+.productName{
+  font-family: Raleway-Bold;
+  font-size: 15px;
+  color: #4A4A4A;
+  letter-spacing: 0;
+  text-align: left;
+
+
+}
+
+.productDescription
+{
+font-family: Raleway-Medium;
+font-size: 12px;
+color: #9B9B9B;
+letter-spacing: 0;
+  text-align: left;
+}
+
+.productMaker{
+  padding-top: 1em;
+font-family: Raleway-Medium;
+font-size: 10px;
+color: #9B9B9B;
+letter-spacing: 0;
+  text-align: left;
+  margin-right: 1em;
+}
+
+.makerAvatar{
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  margin-top:  5px;
+  margin-left: 5px;}
+
+
+
+
+
+
+
