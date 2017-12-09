@@ -1,3 +1,5 @@
+import avatar from './images/avatars/daniel.jpg';
+
 window.Seed = (function () {
     function generateVoteCount() {
         return Math.floor((Math.random() * 50) + 15);
@@ -10,8 +12,9 @@ window.Seed = (function () {
             productDescription: 'On-demand sand castle construction expertise.',
             url: '#',
             votes: generateVoteCount(),
-            makerAvatarUrl: 'src/images/avatars/daniel.jpg',
-            productImageUrl: 'src/images/products/image-aqua.png',
+            makerAvatarUrl: './images/avatars/daniel.jpg',
+
+            productImageUrl: './images/products/image-aqua.jpg',
         },
         {
             id: 2,
@@ -19,8 +22,8 @@ window.Seed = (function () {
             productDescription: 'Earn points when your favorite politicians pass legislation.',
             url: '#',
             votes: generateVoteCount(),
-            makerAvatarUrl: 'src/images/avatars/kristy.png',
-            productImageUrl: 'src/images/products/image-rose.png',
+            makerAvatarUrl: {avatar},
+            productImageUrl: './images/products/image-rose.png',
         },
         {
             id: 3,
@@ -28,8 +31,8 @@ window.Seed = (function () {
             productDescription: 'We already have your measurements and shipping address.',
             url: '#',
             votes: generateVoteCount(),
-            makerAvatarUrl: 'src/images/avatars/veronika.jpg',
-            productImageUrl: 'src/images/products/image-steel.png',
+            makerAvatarUrl: './images/avatars/veronika.jpg',
+            productImageUrl: './images/products/image-steel.png',
         },
         {
             id: 4,
@@ -37,10 +40,10 @@ window.Seed = (function () {
             productDescription: 'High-minded or absent-minded? You decide.',
             url: '#',
             votes: generateVoteCount(),
-            makerAvatarUrl: 'src/images/avatars/molly.png',
-            productImageUrl: 'src/images/products/image-yellow.png',
+            makerAvatarUrl: './images/avatars/molly.png',
+            productImageUrl: './images/products/image-yellow.png',
         },
     ];
 
-    return { products: products };
+    return { products : products };
 }());

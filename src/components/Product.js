@@ -3,9 +3,14 @@ import avatar1 from '/Users/Chhavi/WebstormProjects/huntproduct/src/images/avata
 import product1 from '/Users/Chhavi/WebstormProjects/huntproduct/src/images/products/image-aqua.png'
 
 class Product extends Component {
-    render() {
-        return (
 
+    handleUpVote = () => (
+        this.props.onVote(this.props.id)
+)
+
+    render() {
+
+        return (
             <div className='container'>
                 <div className="row">
                     <div className='col-md-12'>
@@ -17,6 +22,11 @@ class Product extends Component {
 
                         <div className="productName">
                             <p>{this.props.productName}</p>
+                        </div>
+
+                        <div className="vote">
+                            <p>    <a onClick={this.handleUpVote}><i class="fa fa-heart" aria-hidden="true"></i></a>   {this.props.votes}</p>
+
                         </div>
 
                         <div className='productDescription'>

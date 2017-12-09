@@ -33,8 +33,12 @@
   float: left;
   margin-right: 1em;
   border-radius: 3px;
-}
+  }
 
+.vote{
+  float: right;
+  margin-right: 2em;
+}
 .productName{
   font-family: Raleway-Bold;
   font-size: 15px;
@@ -70,6 +74,11 @@ letter-spacing: 0;
   border-radius: 20px;
   margin-top:  5px;
   margin-left: 5px;}
+
+.ui-stack{
+  margin-top:  5px;
+
+}
 
 
 
