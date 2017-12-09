@@ -1,4 +1,4 @@
-import avatar from './images/avatars/daniel.jpg';
+
 
 window.Seed = (function () {
     function generateVoteCount() {
@@ -12,9 +12,8 @@ window.Seed = (function () {
             productDescription: 'On-demand sand castle construction expertise.',
             url: '#',
             votes: generateVoteCount(),
-            makerAvatarUrl: './images/avatars/daniel.jpg',
-
-            productImageUrl: './images/products/image-aqua.jpg',
+            makerAvatarUrl: process.env.PUBLIC_URL + './images/avatars/daniel.jpg',
+            productImageUrl: process.env.PUBLIC_URL + './images/products/image-rose.png'
         },
         {
             id: 2,
@@ -22,26 +21,29 @@ window.Seed = (function () {
             productDescription: 'Earn points when your favorite politicians pass legislation.',
             url: '#',
             votes: generateVoteCount(),
-            makerAvatarUrl: {avatar},
-            productImageUrl: './images/products/image-rose.png',
+            makerAvatarUrl: process.env.PUBLIC_URL + './images/avatars/elliot.jpg',
+            productImageUrl: process.env.PUBLIC_URL + './images/products/image-aqua.png'
+
         },
+
         {
             id: 3,
             productName: 'Tinfoild: Tailored tinfoil hats',
             productDescription: 'We already have your measurements and shipping address.',
             url: '#',
             votes: generateVoteCount(),
-            makerAvatarUrl: './images/avatars/veronika.jpg',
-            productImageUrl: './images/products/image-steel.png',
+            makerAvatarUrl: process.env.PUBLIC_URL + './images/avatars/helen.jpg',
+            productImageUrl: process.env.PUBLIC_URL + './images/products/image-steel.png',
         },
+
         {
             id: 4,
             productName: 'Haught or Naught',
             productDescription: 'High-minded or absent-minded? You decide.',
             url: '#',
             votes: generateVoteCount(),
-            makerAvatarUrl: './images/avatars/molly.png',
-            productImageUrl: './images/products/image-yellow.png',
+            makerAvatarUrl: process.env.PUBLIC_URL + './images/avatars/steve.jpg',
+            productImageUrl: process.env.PUBLIC_URL + './images/products/image-yellow.png'
         },
     ];
 

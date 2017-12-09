@@ -14,13 +14,15 @@
 { font-family: Raleway-SemiBold;
   font-size: 18px;
   color: #EC0B5A;
-  letter-spacing: 0;}
+  letter-spacing: 0;
+  }
+
 
 .container{
   border: 1px solid #F1F1F1;
   border-radius: 3px;
   max-width: 1210px;
-  background: #F1F1F1;
+
   /*flexDirection: 'column'*/
   padding: 1em;
   margin-left: 1em;

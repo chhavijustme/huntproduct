@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
-import avatar1 from '/Users/Chhavi/WebstormProjects/huntproduct/src/images/avatars/daniel.jpg'
-import product1 from '/Users/Chhavi/WebstormProjects/huntproduct/src/images/products/image-aqua.png'
+
 
 class Product extends Component {
 
